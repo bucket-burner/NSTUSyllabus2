@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <TextView
+        android:textSize="22.0sp"
+        android:textColor="#fffcfcfc"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text=" Applied Chemistry And Chemical Engineering" />
+
+
+    <TextView
+        android:textSize="20.0sp"
+        android:textColor="#fffcfcfc"
+        android:gravity="center"
+        android:background="@drawable/abc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:text="Total Credit- 165"
+        android:textStyle="bold"/>
+    <ScrollView
+        android:orientation="vertical"
+        android:background="#ffd6d3d3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fff">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/abc"
+                android:text="First Year First Term (21) "
+                android:id="@+id/f1"
+                android:textColor="#fff"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:gravity="center"
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/abc"
+                android:text="First Year Second Term (20)"
+                android:id="@+id/f2"
+                android:textColor="#fff"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:gravity="center"
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/abc"
+                android:text="Second Year First Term (19)"
+                android:id="@+id/s1"
+                android:textColor="#fff"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:gravity="center"
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/abc"
+                android:text="Second Year Second Term (20)"
+                android:id="@+id/s2"
+                android:textColor="#fff"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:gravity="center"
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/abc"
+                android:text="Third Year First Term (24)"
+                android:id="@+id/th1"
+                android:textColor="#fff"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:gravity="center"
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/abc"
+                android:text="Third Year Second Term (24)"
+                android:id="@+id/th2"
+                android:textColor="#fff"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:gravity="center"
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/abc"
+                android:text="Fourth Year First Term (19)"
+                android:id="@+id/fo1"
+                android:textColor="#fff"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:gravity="center"
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@drawable/abc"
+                android:text="Fourth Year Second Term (18)"
+                android:id="@+id/fo2"
+                android:textColor="#fff"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

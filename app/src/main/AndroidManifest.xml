@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mehadi.hassan.nstusyllabus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/nstusyllabus"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ice" />
+        <activity android:name=".cste" />
+        <activity android:name=".fims" />
+        <activity android:name=".pharmacy" />
+        <activity android:name=".acce" />
+        <activity android:name=".mbg" />
+        <activity android:name=".amath" />
+        <activity android:name=".english" />
+        <activity android:name=".ftns" />
+        <activity android:name=".esdm" />
+        <activity android:name=".bba" />
+        <activity android:name=".bge" />
+        <activity android:name=".economics" />
+        <activity android:name=".agricultural" />
+        <activity android:name=".ice11" />
+        <activity android:name=".ice12" />
+        <activity android:name=".ice21" />
+        <activity android:name=".ice22" />
+        <activity android:name=".ice31" />
+        <activity android:name=".ice32" />
+        <activity android:name=".ice41" />
+        <activity android:name=".ice42" />
+        <activity android:name=".cste11" />
+        <activity android:name=".cste12" />
+        <activity android:name=".cste21" />
+        <activity android:name=".cste22" />
+        <activity android:name=".cste31" />
+        <activity android:name=".cste32" />
+        <activity android:name=".cste41" />
+        <activity android:name=".cste42" />
+        <activity android:name=".fims11" />
+        <activity android:name=".fims12" />
+        <activity android:name=".fims21" />
+        <activity android:name=".fims22" />
+        <activity android:name=".fims31" />
+        <activity android:name=".fims32" />
+        <activity android:name=".fims41" />
+        <activity android:name=".fims42" />
+        <activity android:name=".pharma11" />
+        <activity android:name=".pharma12" />
+        <activity android:name=".pharma21" />
+        <activity android:name=".pharma22" />
+        <activity android:name=".pharma31" />
+        <activity android:name=".pharma32" />
+        <activity android:name=".pharma41" />
+        <activity android:name=".pharma42" />
+        <activity android:name=".acce11" />
+        <activity android:name=".acce12" />
+        <activity android:name=".acce21" />
+        <activity android:name=".acce22" />
+        <activity android:name=".acce31" />
+        <activity android:name=".acce32" />
+        <activity android:name=".acce41" />
+        <activity android:name=".acce42" />
+        <activity android:name=".mbg11" />
+        <activity android:name=".mbg12" />
+        <activity android:name=".mbg21" />
+        <activity android:name=".mbg22" />
+        <activity android:name=".mbg31" />
+        <activity android:name=".mbg32" />
+        <activity android:name=".mbg41" />
+        <activity android:name=".mbg42" />
+        <activity android:name=".amath11" />
+        <activity android:name=".amath12" />
+        <activity android:name=".amath21" />
+        <activity android:name=".amath22" />
+        <activity android:name=".amath31" />
+        <activity android:name=".amath32" />
+        <activity android:name=".amath41" />
+        <activity android:name=".amath42" />
+        <activity android:name=".english11" />
+        <activity android:name=".english12" />
+        <activity android:name=".english21" />
+        <activity android:name=".english22" />
+        <activity android:name=".english31" />
+        <activity android:name=".english32" />
+        <activity android:name=".english41" />
+        <activity android:name=".english42" />
+        <activity android:name=".ftns11" />
+        <activity android:name=".ftns12" />
+        <activity android:name=".ftns22" />
+        <activity android:name=".ftns31" />
+        <activity android:name=".ftns32" />
+        <activity android:name=".ftns41" />
+        <activity android:name=".ftns42" />
+        <activity android:name=".esdm11" />
+        <activity android:name=".esdm12" />
+        <activity android:name=".esdm21" />
+        <activity android:name=".esdm22" />
+        <activity android:name=".esdm31" />
+        <activity android:name=".esdm32" />
+        <activity android:name=".esdm41" />
+        <activity android:name=".esdm42" />
+        <activity android:name=".bba11" />
+        <activity android:name=".bba12" />
+        <activity android:name=".bba21" />
+        <activity android:name=".bba22" />
+        <activity android:name=".bba31" />
+        <activity android:name=".bba32" />
+        <activity android:name=".bba41" />
+        <activity android:name=".bba42" />
+        <activity android:name=".bge11" />
+        <activity android:name=".bge12" />
+        <activity android:name=".bge21" />
+        <activity android:name=".bge22" />
+        <activity android:name=".bge31" />
+        <activity android:name=".bge32" />
+        <activity android:name=".bge41" />
+        <activity android:name=".bge42" />
+        <activity android:name=".econo11" />
+        <activity android:name=".econo12" />
+        <activity android:name=".econo21" />
+        <activity android:name=".econo22" />
+        <activity android:name=".econo31" />
+        <activity android:name=".econo32" />
+        <activity android:name=".econo41" />
+        <activity android:name=".econo42" />
+        <activity android:name=".agri11" />
+        <activity android:name=".agri12" />
+        <activity android:name=".agri21" />
+        <activity android:name=".agri22" />
+        <activity android:name=".agri31" />
+        <activity android:name=".agri32" />
+        <activity android:name=".agri41" />
+        <activity android:name=".agri42" />
+        <activity android:name=".food21" />
+        <activity android:name=".about" />
+        <activity android:name=".pharma51" />
+        <activity android:name=".pharma52" />
+
+    </application>
+
+</manifest>

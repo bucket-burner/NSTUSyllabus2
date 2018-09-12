@@ -1,0 +1,118 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#c1c1c1"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#515151"
+        android:textSize="15sp"
+        android:layout_margin="8dp"
+        android:text="This application has been made for the benefit of the entire NSTU students.It is having with Each Departments four-year course  code,course title and course credits are offered. Built using the helpful enough for users.Here some departments Course content is presented.Course content will be presented with the next version of all department.All Information is received from the respective department. You will see a beautiful sight to forgive errors :)"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed by Omniscient Team "
+        android:textColor="#515151"
+        android:textSize="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Md. Mehadi Hassan"
+        android:textColor="#313131"
+        android:textSize="20dp"
+        android:textColorLink="#5268f4"
+        android:layout_marginLeft="30dp"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:id="@+id/mehadi"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Mahbubul Alam Naeem "
+        android:textColor="#2d2c2c"
+        android:textSize="20dp"
+        android:textColorLink="#2a66d6"
+        android:layout_marginLeft="30dp"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:id="@+id/mahbub"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Ayan Chakraborty"
+        android:textColor="#353434"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="italic"
+        android:textColorLink="#356de6"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ayan"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Nobo Chowdhury "
+        android:textColor="#302f2f"
+        android:textSize="20dp"
+        android:textColorLink="#2c54d7"
+        android:layout_marginLeft="30dp"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:id="@+id/nabo"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Specially Thanks To"
+        android:textColor="#515151"
+        android:textSize="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saifur Rahman Saif"
+        android:textColor="#313131"
+        android:textSize="20dp"
+        android:textColorLink="#355dde"
+        android:layout_marginLeft="30dp"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:id="@+id/saif"
+        />
+
+
+
+
+
+</LinearLayout>
+</LinearLayout>

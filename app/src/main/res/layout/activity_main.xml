@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+
+
+
+
+    <TextView
+        android:textSize="20.0sp"
+        android:textColor="#fffcfcfc"
+        android:gravity="center"
+        android:background="@drawable/back"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:text=" Noakhali Science And Technology University" />
+    <ScrollView
+        android:orientation="vertical"
+        android:background="#ffd6d3d3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fff">
+
+
+        <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:autoStart="true"
+
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:flipInterval="5000" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a" />
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/d" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/f" />
+
+
+
+
+
+
+    </ViewFlipper>
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="Information And Communuication Engineering"
+        android:textStyle="bold"
+        android:id="@+id/iced"
+        android:textColor="#fff"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="Computer Science And Telecommunication Engineering"
+        android:textStyle="bold"
+        android:id="@+id/csted"
+        android:textColor="#fff"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_gravity="center"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="Fisheries And Marine Science"
+        android:textStyle="bold"
+        android:id="@+id/fimsd"
+        android:textColor="#fff"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="Pharmacy"
+        android:textStyle="bold"
+        android:id="@+id/pharmacyd"
+        android:textColor="#fff"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="Applied Chemistry And Chemical Engineering"
+        android:textStyle="bold"
+        android:id="@+id/acced"
+        android:textColor="#fff"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:background="@drawable/abc"
+                android:text="Environmental Science And Disaster Management"
+                android:textStyle="bold"
+                android:id="@+id/esdmd"
+                android:textColor="#fff"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginRight="5.0dip"
+                android:gravity="center"
+                android:textSize="18dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="Microbiology"
+        android:textStyle="bold"
+        android:id="@+id/mbgd"
+        android:textColor="#fff"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="Applied Mathematics"
+        android:textStyle="bold"
+        android:id="@+id/amathd"
+        android:textColor="#fff"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="English"
+        android:textStyle="bold"
+        android:id="@+id/englishd"
+        android:textColor="#fff"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="Food Technology And Nutrition Science"
+        android:textStyle="bold"
+        android:id="@+id/ftnsdsd"
+        android:textColor="#fff"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="Business Administration"
+        android:textStyle="bold"
+        android:id="@+id/bbad"
+        android:textColor="#fff"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="Biotechnology And Genetic Engineering"
+        android:textStyle="bold"
+        android:id="@+id/bged"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="Economics"
+        android:textStyle="bold"
+        android:id="@+id/ecod"
+        android:textColor="#fff"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/abc"
+        android:text="Agriculture"
+        android:textStyle="bold"
+        android:id="@+id/agrid"
+        android:textColor="#fff"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="3.0dip"
+        android:layout_marginRight="5.0dip"
+        android:gravity="center"
+        android:textSize="18dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
